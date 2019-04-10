@@ -2,16 +2,18 @@
 
 #pragma once
 
-class Dragon : Monster {
+class Dragon : public Monster {
 public:
-	Dragon();
-	~Dragon();
-	virtual void attack();
-private:
 	enum Type
 	{
 		Fire,
 		Ice,
 		Stone
 	};
+
+public:
+	Dragon();
+	~Dragon();
+	virtual void attack();
+	void SetType(Type);
 };

@@ -2,7 +2,7 @@
 
 #pragma once
 
-class Monster : Character {
+class Monster : public Character {
 public:
 	Monster();
 	~Monster();
