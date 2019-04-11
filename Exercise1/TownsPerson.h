@@ -2,8 +2,10 @@
 
 #pragma once
 
-class Towny : NPC {
+class Towny : public NPC {
 public:
 	Towny();
 	~Towny();
+	virtual void talk();
+	virtual void attack();
 };

@@ -117,8 +117,12 @@
   <ItemGroup>
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Dragon.cpp" />
+    <ClCompile Include="Guardian.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="NPC.cpp" />
+    <ClCompile Include="Townsperson.cpp" />
+    <ClCompile Include="Troll.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character.h" />

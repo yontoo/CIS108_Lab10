@@ -2,14 +2,16 @@
 
 #pragma once
 
-class Troll : Monster {
+class Troll : public Monster {
 public:
-	Troll();
-	~Troll();
-private:
 	enum Type {
 		Bridge,
 		Forest
 	};
 	int malice;
+public:
+	Troll();
+	~Troll();
+	void SetTrollType(Type);
+	virtual void attack();
 };

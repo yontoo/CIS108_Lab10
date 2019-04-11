@@ -2,8 +2,10 @@
 
 #pragma once
 
-class Guard : NPC {
+class Guard : public NPC {
 public:
 	Guard();
 	~Guard();
+	virtual void talk();
+	virtual void attack();
 };

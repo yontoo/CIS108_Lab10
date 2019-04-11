@@ -2,9 +2,9 @@
 
 #pragma once
 
-class NPC : Character {
+class NPC : public Character {
 public:
 	NPC();
 	~NPC();
-	virtual void talk();
+	virtual void talk() = 0;
 };
